@@ -8,11 +8,7 @@
 </template>
 
 <script>
-import 'element-plus/es/components/avatar/style/css'
-import 'element-plus/es/components/card/style/css'
-import { ElAvatar, ElCard } from 'element-plus'
 export default {
-    components: { ElAvatar, ElCard },
     props: ['character', 'armor', 'message'],
     data() {
         return {

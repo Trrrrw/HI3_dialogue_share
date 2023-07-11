@@ -1747,7 +1747,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vuepress/bundler-vite@2.0.0-beta.64":
+"@vuepress/bundler-vite@2.0.0-beta.64", "@vuepress/bundler-vite@^2.0.0-beta.64":
   version "2.0.0-beta.64"
   resolved "https://registry.yarnpkg.com/@vuepress/bundler-vite/-/bundler-vite-2.0.0-beta.64.tgz#5054dd7ec9d51e942904408f82621c3161e0276f"
   integrity sha512-VoEnavMbMZgKQTeKsSv/ybkQRiJkNJwiCeOkJiK7WqmoNSOcUwMJhsmViMMhUmFt+TyVN+GkXdd0kpcZIiKVhg==
