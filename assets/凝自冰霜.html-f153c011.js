@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,a as e,d as c}from"./app-05d4a008.js";const o={},r=e("h1",{id:"凝自冰霜",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#凝自冰霜","aria-hidden":"true"},"#"),c(" 凝自冰霜")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","凝自冰霜.html.vue"]]);export{l as default};
