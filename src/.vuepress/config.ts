@@ -3,7 +3,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: "/HI3_dialogue_share/",
 
   lang: "zh-CN",
   title: "崩坏3 剧情文本",
