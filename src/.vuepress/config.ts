@@ -3,7 +3,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: "/src/.vuepress/dist/",
 
   lang: "zh-CN",
   title: "崩坏3 剧情文本",
