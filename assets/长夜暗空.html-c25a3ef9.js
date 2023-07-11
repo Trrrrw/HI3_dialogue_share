@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,a as e,d as c}from"./app-c141c1b4.js";const o={},r=e("h1",{id:"长夜暗空",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#长夜暗空","aria-hidden":"true"},"#"),c(" 长夜暗空")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","长夜暗空.html.vue"]]);export{l as default};
