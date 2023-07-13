@@ -10,6 +10,8 @@ export default hopeTheme({
     url: "https://www.trrw.tech/",
   },
 
+  favicon: "/logo.png",
+
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
