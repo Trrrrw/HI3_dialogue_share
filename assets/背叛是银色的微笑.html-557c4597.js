@@ -1,1 +1,0 @@
-import{_,o as t,c as a,a as e,d as c}from"./app-24f722dd.js";const o={},r=e("h1",{id:"背叛是银色的微笑",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#背叛是银色的微笑","aria-hidden":"true"},"#"),c(" 背叛是银色的微笑")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","背叛是银色的微笑.html.vue"]]);export{l as default};
