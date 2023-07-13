@@ -43,13 +43,13 @@ export default hopeTheme({
 
   plugins: {
     // You should generate and use your own comment service
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "Trrrrw/giscus-discussions",
+      repoId: "R_kgDOJ7BljA",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJ7BljM4CX23C",
+    },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
