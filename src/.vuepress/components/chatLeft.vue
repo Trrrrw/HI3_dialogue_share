@@ -12,7 +12,7 @@ export default {
     props: ['character', 'armor', 'message'],
     data() {
         return {
-            Url:"/assets/image/证件照/"+this.character+"/"+this.armor+".png",
+            Url:"/HI3_dialogue_share/assets/image/证件照/"+this.character+"/"+this.armor+".png",
             Msg: this.message
         }
     }
