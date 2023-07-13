@@ -1,1 +1,0 @@
-import{_,o as t,c as a,a as e,d as c}from"./app-08dd3d46.js";const o={},r=e("h1",{id:"然后-向着明天",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#然后-向着明天","aria-hidden":"true"},"#"),c(" 然后，向着明天")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","然后，向着明天.html.vue"]]);export{l as default};
