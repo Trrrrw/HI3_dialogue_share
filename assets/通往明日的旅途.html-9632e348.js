@@ -1,0 +1,1 @@
+import{_,o as t,c as a,a as e,d as c}from"./app-24f722dd.js";const o={},r=e("h1",{id:"通往明日的旅途",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#通往明日的旅途","aria-hidden":"true"},"#"),c(" 通往明日的旅途")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","通往明日的旅途.html.vue"]]);export{l as default};
