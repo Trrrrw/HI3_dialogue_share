@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/HI3_dialogue_share/logo.svg",
+  logo: "/logo.svg",
 
   repo: "Trrrrw/HI3_dialogue_share",
 
