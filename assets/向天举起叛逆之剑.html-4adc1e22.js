@@ -1,0 +1,1 @@
+import{_,o as t,c as a,a as e,d as c}from"./app-f0c13031.js";const o={},r=e("h1",{id:"向天举起叛逆之剑",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#向天举起叛逆之剑","aria-hidden":"true"},"#"),c(" 向天举起叛逆之剑")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","向天举起叛逆之剑.html.vue"]]);export{l as default};
