@@ -40,7 +40,7 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: CDN
-        run: sed -i 's/\/HI3_dialogue_share/https:\/\/cdn.staticaly.com\/gh\/Trrrrw\/HI3_dialogue_share@gh-pages/g' src/.vuepress/dist
+        run: sed -i 's/\/HI3_dialogue_share/https:\/\/cdn.staticaly.com\/gh\/Trrrrw\/HI3_dialogue_share@gh-pages/g' `grep -rl "\/HI3_dialogue_share" src/.vuepress/dist`
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
