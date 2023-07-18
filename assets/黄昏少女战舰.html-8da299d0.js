@@ -1,1 +1,0 @@
-import{_ as c,r,o as a,c as o,b as t}from"./app-67d12012.js";const _={};function s(n,m){const e=r("chatLeft");return a(),o("div",null,[t(e,{character:"无量塔姬子",armor:"5",message:"琪亚娜。报告情况。"}),t(e,{character:"琪亚娜·卡斯兰娜",armor:"5",message:"我已经在甲板上啦!"})])}const f=c(_,[["render",s],["__file","黄昏少女战舰.html.vue"]]);export{f as default};
