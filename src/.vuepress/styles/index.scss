@@ -1,1 +1,10 @@
 // place your custom styles here
+div.chat-box.no-avatar > div.avatar-box {
+    // display: none;
+    opacity:0;
+    pointer-events: none;
+}
+
+// div.chat-box.no-avatar > div.el-card {
+//     margin-left: 82px;
+// }

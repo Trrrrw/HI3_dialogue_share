@@ -42,6 +42,12 @@ export default hopeTheme({
   },
 
   plugins: {
+    components: {
+      // 你想使用的组件
+      components:[
+        "BiliBili",
+      ]
+    },
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
