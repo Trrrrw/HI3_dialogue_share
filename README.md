@@ -4,15 +4,6 @@
 
 <br>
 
-![Badge Workflow] 
-[![Badge License]][License] 
-![Badge Language] 
-[![Badge Pull Requests]][Pull Requests] 
-[![Badge Issues]][Issues] 
-![Badge Hi Mom]<br>
-[![Badge Discord]][Discord]
-
-<br>
 
 ...
 <br>
