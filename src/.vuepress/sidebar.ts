@@ -6,7 +6,7 @@ export default sidebar({
     {
       text: "目录",
       icon: "book",
-      prefix: "guide/",
+      prefix: "chapter/",
       collapsible: true,
       children: [
         {

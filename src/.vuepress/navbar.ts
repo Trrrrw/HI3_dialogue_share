@@ -6,7 +6,7 @@ export default navbar([
   {
     text: "目录",
     icon: "book",
-    prefix: "/guide/",
+    prefix: "/chapter/",
     children: [
       {
         text: "月之始源与终焉",

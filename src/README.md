@@ -12,7 +12,7 @@ heroFullScreen: true
 tagline: 收集整理崩坏3游戏内的文本
 actions:
   - text: 开始浏览 ❤️
-    link: ./guide/Vol.1/
+    link: ./chapter/Vol.1/
     type: primary
 
   - text: 指南
