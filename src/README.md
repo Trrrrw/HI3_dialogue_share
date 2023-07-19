@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: /assets/image/1685936885555-2.png
+heroImage: /assets/image/kcc-2000.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
