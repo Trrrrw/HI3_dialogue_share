@@ -1,0 +1,1 @@
+import{_,r as o,o as t,c,d as n}from"./app-5a88aa1d.js";const i={};function l(r,s){const e=o("BiliBili");return t(),c("div",null,[n(e,{bvid:"BV1Ut411v74a"})])}const m=_(i,[["render",l],["__file","通往明日的旅途.html.vue"]]);export{m as default};
