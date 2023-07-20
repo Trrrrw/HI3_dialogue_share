@@ -101,7 +101,7 @@ export default hopeTheme({
 
     // uncomment these if you want a pwa
     pwa: {
-      favicon: "/favicon.ico",
+      favicon: "/assets/favicon.ico",
       themeColor: "#ffffff",
       
       cacheHTML: true,
@@ -144,7 +144,7 @@ export default hopeTheme({
           {
             name: "崩坏3 剧情文本",
             short_name: "崩坏3 剧情文本",
-            url: "/demo/",
+            url: "/",
             icons: [
               {
                 src: "/assets/icon/guide-maskable.png",
