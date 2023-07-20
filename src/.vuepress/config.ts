@@ -10,5 +10,5 @@ export default defineUserConfig({
   description: "崩坏3 剧情文本",
 
   theme,
-
+  shouldPrefetch: false,
 });
