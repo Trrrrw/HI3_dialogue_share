@@ -44,7 +44,7 @@ export default hopeTheme({
   plugins: {
     components: {
       // 你想使用的组件
-      components:[
+      components: [
         "BiliBili",
       ]
     },
@@ -103,9 +103,6 @@ export default hopeTheme({
     pwa: {
       favicon: "/assets/favicon.ico",
       themeColor: "#ffffff",
-      display: "standalone",
-      orientation: "landscape",
-      
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
@@ -118,6 +115,8 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
+        display: "standalone",
+        orientation: "landscape-primary",
         icons: [
           {
             src: "/assets/icon/chrome-mask-512.png",

@@ -1790,6 +1790,17 @@
     vue "^3.3.4"
     vue-router "^4.2.2"
 
+"@vuepress/client@2.0.0-beta.66":
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/@vuepress/client/-/client-2.0.0-beta.66.tgz#adf27f8574667589749995ac6f475a0683a91bd4"
+  integrity sha512-WjrL1u0NOVUwiGoVOIfQqSU7SwzJUkyBFu3xiZoNmWFD9VdPIfuSRvVeZDhr+br/0tA7XrJd2ueSEDt5+BM3Qg==
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+    "@vuepress/shared" "2.0.0-beta.66"
+    "@vueuse/core" "^10.2.1"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
+
 "@vuepress/core@2.0.0-beta.64":
   version "2.0.0-beta.64"
   resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-2.0.0-beta.64.tgz#5272b069cc7a8d7595b7e33174bd8df5275da1e1"
@@ -1948,6 +1959,14 @@
     "@mdit-vue/types" "^0.12.0"
     "@vue/shared" "^3.3.4"
 
+"@vuepress/shared@2.0.0-beta.66":
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/@vuepress/shared/-/shared-2.0.0-beta.66.tgz#0e139aa88715023f1434b76e2ed6f1092d91bafe"
+  integrity sha512-hMnFFHee6xLYVcSdpbKddcqunrOxIp2/B1gOGorcF5bZfnhJJWWsdZ//kwemAqlB8d10Z7f3x+b69Ur1LDPThw==
+  dependencies:
+    "@mdit-vue/types" "^0.12.0"
+    "@vue/shared" "^3.3.4"
+
 "@vuepress/theme-default@2.0.0-beta.64":
   version "2.0.0-beta.64"
   resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.64.tgz#c674e61ae1b7208e468c713e728b03e8e6cf416a"
@@ -1985,6 +2004,23 @@
     debug "^4.3.4"
     fs-extra "^11.1.1"
     globby "^13.2.1"
+    hash-sum "^2.0.0"
+    ora "^6.3.1"
+    picocolors "^1.0.0"
+    upath "^2.0.1"
+
+"@vuepress/utils@2.0.0-beta.66":
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/@vuepress/utils/-/utils-2.0.0-beta.66.tgz#fd58889f41aaae608ab0dc1fb4f943aadbe6a397"
+  integrity sha512-CcgSG7ewI20iTdu1WCtQEBJiHfUgsGMg4TB4rActe9gPx8ZRoxZ8Jhr6bO3a4SU789PSBUzF7RYm9E1MtzATHg==
+  dependencies:
+    "@types/debug" "^4.1.8"
+    "@types/fs-extra" "^11.0.1"
+    "@types/hash-sum" "^1.0.0"
+    "@vuepress/shared" "2.0.0-beta.66"
+    debug "^4.3.4"
+    fs-extra "^11.1.1"
+    globby "^13.2.2"
     hash-sum "^2.0.0"
     ora "^6.3.1"
     picocolors "^1.0.0"
@@ -3421,7 +3457,7 @@ globalthis@^1.0.3:
   dependencies:
     define-properties "^1.1.3"
 
-globby@^13.2.1:
+globby@^13.2.1, globby@^13.2.2:
   version "13.2.2"
   resolved "https://registry.yarnpkg.com/globby/-/globby-13.2.2.tgz#63b90b1bf68619c2135475cbd4e71e66aa090592"
   integrity sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==
@@ -4434,7 +4470,7 @@ minimatch@^9.0.1, minimatch@^9.0.2:
   dependencies:
     brace-expansion "^2.0.1"
 
-mitt@^3.0.0:
+mitt@^3.0.0, mitt@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.1.tgz#ea36cf0cc30403601ae074c8f77b7092cdab36d1"
   integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
@@ -4990,7 +5026,7 @@ section-matter@^1.0.0:
     extend-shallow "^2.0.1"
     kind-of "^6.0.0"
 
-semver@^7.5.3:
+semver@^7.5.3, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
@@ -5519,7 +5555,7 @@ vue-demi@*, vue-demi@>=0.14.5:
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.5.tgz#676d0463d1a1266d5ab5cba932e043d8f5f2fbd9"
   integrity sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==
 
-vue-router@^4.2.2:
+vue-router@^4.2.2, vue-router@^4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.2.4.tgz#382467a7e2923e6a85f015d081e1508052c191b9"
   integrity sha512-9PISkmaCO02OzPVOMq2w82ilty6+xJmQrarYZDkjZBfl4RvYAlt4PKnEX21oW4KTtWfa9OuO/b3qk1Od3AEdCQ==
@@ -5725,6 +5761,23 @@ vuepress-plugin-pwa2@2.0.0-beta.230:
     vuepress-shared "2.0.0-beta.230"
     workbox-build "^7.0.0"
 
+vuepress-plugin-pwa2@^2.0.0-beta.233:
+  version "2.0.0-beta.233"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.233.tgz#b3701adbf5122e101042d01d694a4636ac8ed1e4"
+  integrity sha512-XoK5s827OKvrfB+qdcyfKzlYXYV/8dki9tB5wD70S9b6u2WAyT17pL3GaoxHkuWmff2Nrx5V0TleLu1Z7GRceQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.66"
+    "@vuepress/shared" "2.0.0-beta.66"
+    "@vuepress/utils" "2.0.0-beta.66"
+    "@vueuse/core" "^10.2.1"
+    mitt "^3.0.1"
+    register-service-worker "^1.7.2"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
+    vuepress-plugin-sass-palette "2.0.0-beta.233"
+    vuepress-shared "2.0.0-beta.233"
+    workbox-build "^7.0.0"
+
 vuepress-plugin-reading-time2@2.0.0-beta.230:
   version "2.0.0-beta.230"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.230.tgz#ce56de617633dcdeefc8fc62fe68a6ac71cd5dd5"
@@ -5755,6 +5808,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.230:
     chokidar "^3.5.3"
     sass "^1.63.6"
     vuepress-shared "2.0.0-beta.230"
+
+vuepress-plugin-sass-palette@2.0.0-beta.233:
+  version "2.0.0-beta.233"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.233.tgz#cacf7971ceebf2a9343bb84a774c839a955a6b9b"
+  integrity sha512-sxIGCtwQTCWhoYHfHXv+iRF9xB3n5qQKTLDGeP0nakO1CTlyP+ErJl3ADmC9aSHrrlhqBSqUQ72lPtWq2QWxbg==
+  dependencies:
+    "@vuepress/shared" "2.0.0-beta.66"
+    "@vuepress/utils" "2.0.0-beta.66"
+    chokidar "^3.5.3"
+    sass "^1.63.6"
+    vuepress-shared "2.0.0-beta.233"
 
 vuepress-plugin-seo2@2.0.0-beta.230:
   version "2.0.0-beta.230"
@@ -5793,6 +5857,25 @@ vuepress-shared@2.0.0-beta.230:
     striptags "^3.2.0"
     vue "^3.3.4"
     vue-router "^4.2.2"
+
+vuepress-shared@2.0.0-beta.233:
+  version "2.0.0-beta.233"
+  resolved "https://registry.yarnpkg.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.233.tgz#05fa1d0a9117db7044f0c322c057a9089ad1849d"
+  integrity sha512-70Uzd6d4a9v5BoXxQMDuefefdhM2+hmqMMwBbUrZF5DczO5Z6K5fo5ssdfgpeqbydvnHPkyh0ls6k9d57JxWGw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.66"
+    "@vuepress/shared" "2.0.0-beta.66"
+    "@vuepress/utils" "2.0.0-beta.66"
+    "@vueuse/core" "^10.2.1"
+    cheerio "1.0.0-rc.12"
+    dayjs "^1.11.9"
+    execa "^7.1.1"
+    fflate "^0.8.0"
+    gray-matter "^4.0.3"
+    semver "^7.5.4"
+    striptags "^3.2.0"
+    vue "^3.3.4"
+    vue-router "^4.2.4"
 
 vuepress-theme-hope@2.0.0-beta.230:
   version "2.0.0-beta.230"
