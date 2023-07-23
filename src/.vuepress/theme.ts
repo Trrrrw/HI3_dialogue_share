@@ -103,8 +103,8 @@ export default hopeTheme({
     pwa: {
       favicon: "/assets/favicon.ico",
       themeColor: "#ffffff",
-      "display": "standalone",
-      "orientation": "landscape",
+      display: "standalone",
+      orientation: "landscape",
       
       cacheHTML: true,
       cachePic: true,
