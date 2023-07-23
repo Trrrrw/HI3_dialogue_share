@@ -11,8 +11,4 @@ export default defineUserConfig({
 
   theme,
   shouldPrefetch: false,
-  head:[
-    ['meta', { name: 'screen-orientation', content: 'landscape' }],
-    ['meta', { name: 'x5-orientation', content: 'landscape' }]
-  ]
 });
