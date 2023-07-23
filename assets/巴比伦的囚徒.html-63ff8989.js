@@ -1,1 +1,0 @@
-import{_ as t,o as _,c as a,a as e,b as c}from"./app-082a38c7.js";const o={},r=e("h1",{id:"巴比伦的囚徒",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#巴比伦的囚徒","aria-hidden":"true"},"#"),c(" 巴比伦的囚徒")],-1),s=[r];function n(d,i){return _(),a("div",null,s)}const l=t(o,[["render",n],["__file","巴比伦的囚徒.html.vue"]]);export{l as default};
