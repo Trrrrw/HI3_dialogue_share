@@ -116,7 +116,7 @@ export default hopeTheme({
       },
       manifest: {
         display: "standalone",
-        orientation: "landscape-primary",
+        orientation: "landscape",
         icons: [
           {
             src: "/assets/icon/chrome-mask-512.png",
