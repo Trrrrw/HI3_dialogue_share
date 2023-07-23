@@ -1,1 +1,0 @@
-import{_,o as t,c as a,a as e,d as c}from"./app-94697c40.js";const o={},r=e("h1",{id:"蛇从黑暗中行来",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#蛇从黑暗中行来","aria-hidden":"true"},"#"),c(" 蛇从黑暗中行来")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","蛇从黑暗中行来.html.vue"]]);export{l as default};
