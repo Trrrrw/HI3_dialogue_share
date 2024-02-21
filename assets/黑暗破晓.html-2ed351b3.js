@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,a as e,b as c}from"./app-3d350fbb.js";const o={},r=e("h1",{id:"黑暗破晓",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#黑暗破晓","aria-hidden":"true"},"#"),c(" 黑暗破晓")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","黑暗破晓.html.vue"]]);export{l as default};
