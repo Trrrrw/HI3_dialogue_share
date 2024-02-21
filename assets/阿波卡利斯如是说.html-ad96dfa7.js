@@ -1,1 +1,0 @@
-import{_,o as t,c as a,a as e,b as c}from"./app-0294ddcc.js";const o={},r=e("h1",{id:"阿波卡利斯如是说",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#阿波卡利斯如是说","aria-hidden":"true"},"#"),c(" 阿波卡利斯如是说")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","阿波卡利斯如是说.html.vue"]]);export{l as default};
