@@ -1,19 +1,20 @@
 import {defineClientConfig} from '@vuepress/client'
 
-import {
-    // create naive ui
-    create,
-    // component
-    NButton, NAvatar, NCard, NSpace, NDivider
-
-} from 'naive-ui'
+import naive from "naive-ui";
+// import {
+//     // create naive ui
+//     create,
+//     // component
+//     NButton, NAvatar, NCard, NSpace, NDivider
+//
+// } from 'naive-ui'
 
 // @ts-ignore
 import chatLeft from "./components/chatLeft.vue"
 
-const naive = create({
-    components: [NButton, NAvatar, NCard, NSpace, NDivider]
-})
+// const naive = create({
+//     components: [NButton, NAvatar, NCard, NSpace, NDivider]
+// })
 
 export default defineClientConfig({
     enhance({app}) {
