@@ -8,14 +8,20 @@ icon: lightbulb
 2. 点击按钮`Fork this repository`
 3. 按照下面格式添加对话
 ```html
-<chatLeft character="角色名" armor="装甲序号" message="对话" />
+<chatLeft character="角色名" armor="装甲序号">
+<n-card>对话</n-card>
+</chatLeft>
 ```
 
 **示例**
-<chatLeft character="爱莉希雅" armor="0" message="如此绚丽的花朵，不该在绽放之前就枯萎。我会赠予你璀聚的祝福，而你的灵魂，也将会绽放更耀眼的光辉。" />
+<chatLeft character="爱莉希雅" armor="0">
+<n-card>如此绚丽的花朵，不该在绽放之前就枯萎。我会赠予你璀聚的祝福，而你的灵魂，也将会绽放更耀眼的光辉。</n-card>
+</chatLeft>
 
 ```html
-<chatLeft character="爱莉希雅" armor="0" message="如此绚丽的花朵，不该在绽放之前就枯萎。我会赠予你璀聚的祝福，而你的灵魂，也将会绽放更耀眼的光辉。" />
+<chatLeft character="爱莉希雅" armor="0">
+<n-card>如此绚丽的花朵，不该在绽放之前就枯萎。我会赠予你璀聚的祝福，而你的灵魂，也将会绽放更耀眼的光辉。</n-card>
+</chatLeft>
 ```
 
 
