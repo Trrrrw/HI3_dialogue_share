@@ -1,1 +1,0 @@
-import{_,o as t,c as a,a as e,b as c}from"./app-15760c40.js";const o={},r=e("h1",{id:"当雷鸣划破长空",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#当雷鸣划破长空","aria-hidden":"true"},"#"),c(" 当雷鸣划破长空")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","当雷鸣划破长空.html.vue"]]);export{l as default};
