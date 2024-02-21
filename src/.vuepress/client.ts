@@ -1,14 +1,23 @@
-import { defineClientConfig  } from '@vuepress/client'
-// 全量引入element-plus
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import {defineClientConfig} from '@vuepress/client'
 
-import chatLeft from './components/chatLeft.vue'
+import {
+    // create naive ui
+    create,
+    // component
+    NButton, NAvatar, NCard, NSpace
+
+} from 'naive-ui'
+
+// @ts-ignore
+import chatLeft from "./components/chatLeft.vue"
+
+const naive = create({
+    components: [NButton, NAvatar, NCard, NSpace]
+})
 
 export default defineClientConfig({
-  enhance({ app }) {
-    // 注册element-plus
-    app.use(ElementPlus)
-    app.component('chatLeft', chatLeft)
-  },
+    enhance({app}) {
+        app.use(naive)
+        app.component('chatLeft', chatLeft)
+    },
 })

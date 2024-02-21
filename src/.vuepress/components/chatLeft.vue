@@ -1,38 +1,24 @@
 <template>
-    <div class="chat-box">
-        <div class="avatar-box">
-            <el-avatar fit="none" :size="62.5" :src= Url />
-        </div>
-        <el-card shadow="hover"> {{ Msg }} </el-card>
-    </div>
+  <n-space>
+    <n-avatar round object-fit="cover" :size="62.5" :src=Url />
+    <n-space vertical>
+      <slot></slot>
+    </n-space>
+  </n-space>
 </template>
+
 
 <script>
 export default {
-    props: ['character', 'armor', 'message'],
-    data() {
-        return {
-            Url:"/HI3_dialogue_share/assets/image/证件照/"+this.character+"/"+this.armor+".png",
-            Msg: this.message
-        }
+  props: ['character', 'armor'],
+  data() {
+    return {
+      Url: "/HI3_dialogue_share/assets/image/证件照/" + this.character + "/" + this.armor + ".png",
     }
+  }
 }
 </script>
 
 
 <style scoped>
-.chat-box {
-    display: table;
-    margin: 10px;
-}
-
-.avatar-box {
-    float: left;
-    margin-right: 20px;
-}
-
-.el-card {
-    max-width: fit-content;
-    float: right;
-}
 </style>
