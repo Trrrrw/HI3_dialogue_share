@@ -3,6 +3,7 @@
     <n-avatar round object-fit="cover" :size="62.5" :src=Url />
     <n-space vertical>
       <slot></slot>
+      <n-divider />
     </n-space>
   </n-space>
 </template>

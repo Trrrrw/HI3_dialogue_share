@@ -4,7 +4,7 @@ import {
     // create naive ui
     create,
     // component
-    NButton, NAvatar, NCard, NSpace
+    NButton, NAvatar, NCard, NSpace, NDivider
 
 } from 'naive-ui'
 
@@ -12,7 +12,7 @@ import {
 import chatLeft from "./components/chatLeft.vue"
 
 const naive = create({
-    components: [NButton, NAvatar, NCard, NSpace]
+    components: [NButton, NAvatar, NCard, NSpace, NDivider]
 })
 
 export default defineClientConfig({
