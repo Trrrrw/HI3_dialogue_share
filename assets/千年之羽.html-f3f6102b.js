@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as _,a as e,b as c}from"./app-45243d02.js";const o={},r=e("h1",{id:"千年之羽",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#千年之羽","aria-hidden":"true"},"#"),c(" 千年之羽")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","千年之羽.html.vue"]]);export{l as default};
