@@ -9,10 +9,12 @@
 <br>
 </div>
 
+
+# 暂时别folk了，大佬 [@Xrysnow](https://github.com/xrysnow) 已经搞完了👉 [崩坏3剧情助手](https://bh3helper.xrysnow.xyz/pages/index.html) 👈
+
 想把格式换成 WebGAL 的格式，现在的格式太蛋疼了，不过手头没电脑不是很方便。
 想添加的人偶可以看 [WebGAL 文档](https://docs.openwebgal.com/webgal-script/dialogue.html)，或者 src/scene 下的 .txt 文件
 
-暂时别folk了😨，大佬 [@Xrysnow](https://github.com/xrysnow) 已经搞完了 [崩坏3剧情助手](https://bh3helper.xrysnow.xyz/pages/index.html)
 
 ## 使用方法
 1. 点击每个页面下方的`在 GitHub 上编辑此页`
