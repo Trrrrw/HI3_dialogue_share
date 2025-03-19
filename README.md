@@ -13,8 +13,6 @@
 想添加的人偶可以看 [WebGAL 文档](https://docs.openwebgal.com/webgal-script/dialogue.html)，或者 src/scene 下的 .txt 文件
 
 暂时别folk了😨，大佬 [@Xrysnow](https://github.com/xrysnow) 已经搞完了 [崩坏3剧情助手](https://bh3helper.xrysnow.xyz/pages/index.html)
-<br>
-</div>
 
 ## 使用方法
 1. 点击每个页面下方的`在 GitHub 上编辑此页`
