@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,a as e,b as c}from"./app-40d16c41.js";const o={},r=e("h1",{id:"融于岩隙",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#融于岩隙","aria-hidden":"true"},"#"),c(" 融于岩隙")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","融于岩隙.html.vue"]]);export{l as default};
