@@ -12,7 +12,7 @@ heroFullScreen: true
 tagline: 收集整理崩坏3游戏内的文本
 actions:
   - text: 开始浏览 ❤️
-    link: ./chapter/Vol.1/
+    link: ./chapter/Vol.1/梦，开始了/黄昏少女战舰.html
     type: primary
 
   - text: 指南
